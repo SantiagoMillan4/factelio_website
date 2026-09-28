@@ -1,62 +1,64 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="A straightforward invoicing app for creating clean, professional invoices without complicated accounting software.">
-<meta name="theme-color" content="#f7f7f5">
-<title>Facture — Create simple invoices. Get paid faster.</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Create clear invoices, manage clients, and handle Québec sales taxes in one simple app.">
+  <meta name="theme-color" content="#f5f7fa">
+  <title>Facture — Simple invoicing for Québec</title>
+  <link rel="alternate" hreflang="fr-CA" href="fr.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="container">
-<nav>
-<a class="brand" href="#"><span class="logo">F</span>Facture</a>
-<div class="navlinks"><a href="#features">Features</a><a href="#how">How it works</a><a href="#download">Download</a></div>
-</nav>
-</header>
-
-<main>
-<section class="hero container">
-<div class="eyebrow">Simple invoicing for freelancers and small businesses.</div>
-<h1>Create simple invoices. Get paid faster.</h1>
-<p>A straightforward invoicing app for creating clean, professional invoices without complicated accounting software.</p>
-<div class="buttons">
-<a class="btn" href="https://apps.apple.com/" target="_blank" rel="noopener"> &nbsp; App Store</a>
-<a class="btn secondary" href="https://play.google.com/" target="_blank" rel="noopener">Google Play</a>
-</div>
-<div class="mockup"><div class="mock-screen">Add your real Facture screenshot here</div></div>
-</section>
-
-<section class="section container" id="features">
-<div class="section-head"><h2>Simple by design.</h2><p>Everything you need, without the clutter. Built to make the important stuff easy to see and act on.</p></div>
-<div class="grid"><article class="card"><div class="icon">1</div><h3>Create invoices</h3><p>Build a professional invoice in seconds with only the information you actually need.</p></article>
-<article class="card"><div class="icon">2</div><h3>Stay organized</h3><p>Keep your invoices easy to find and your work easier to manage.</p></article>
-<article class="card"><div class="icon">3</div><h3>Send with confidence</h3><p>Create clean, professional documents that are ready to share with your clients.</p></article></div>
-</section>
-
-<section class="section container" id="how">
-<div class="section-head"><h2>See how it works.</h2><p>A quick walkthrough is all it takes to get started.</p></div>
-<div class="tutorial"><article class="step"><div class="step-num">01</div><h3>Add your business</h3><p>Set up your business information once so your invoices are ready to go.</p></article>
-<article class="step"><div class="step-num">02</div><h3>Create an invoice</h3><p>Add your client, items, prices, taxes, and payment details in a simple flow.</p></article>
-<article class="step"><div class="step-num">03</div><h3>Send it</h3><p>Review your invoice and share it with your client. No unnecessary steps.</p></article></div>
-</section>
-
-<section class="section container" id="download">
-<div class="cta">
-<h2>Ready to try Facture?</h2>
-<p>Download the app and see how much simpler it can be.</p>
-<div class="buttons">
-<a class="btn" href="https://apps.apple.com/" target="_blank" rel="noopener"> &nbsp; Download on the App Store</a>
-<a class="btn secondary" href="https://play.google.com/" target="_blank" rel="noopener">Get it on Google Play</a>
-</div>
-</div>
-</section>
-</main>
-
-<footer class="container">
-<span>© 2026 Facture</span>
-<div><a href="#">Privacy</a><a href="mailto:hello@example.com">Contact</a></div>
-</footer>
+  <header class="site-header">
+    <nav class="container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Facture"><span class="brand-mark" aria-hidden="true">F</span><span>Facture</span></a>
+      <div class="nav-right">
+        <div class="navlinks"><a href="#features">Features</a><a href="#how">How it works</a><a href="#availability">Availability</a></div>
+        <a class="language-switch" href="fr.html" lang="fr" aria-label="Voir le site en français">Français</a>
+      </div>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span>Made for independent work in Québec</span>
+        <h1>Invoices, without<br>the busywork.</h1>
+        <p>Create professional invoices, keep clients organized, and handle TPS/TVQ in a calm, simple workspace.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#features">Explore the features<span aria-hidden="true">↗</span></a><span class="availability-note">iOS & Android coming soon</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="app-preview" role="img" aria-label="Interface illustration">
+          <div class="preview-top"><span class="preview-logo">F</span><span>Facture</span><span class="preview-avatar" aria-hidden="true">SM</span></div>
+          <div class="preview-body">
+            <span class="preview-kicker">Interface illustration</span>
+            <h2>Your invoices, at a glance</h2>
+            <div class="preview-stats"><div><span>Unpaid</span><strong>2 460 $</strong><small>↗</small></div><div><span>Paid this month</span><strong>4 180 $</strong><small>✓</small></div></div>
+            <div class="preview-list">
+              <div class="preview-list-head"><span>Invoice</span><span>Status</span></div>
+              <div class="preview-row"><span><b>FA-024</b><small>Studio Boréal · 1 240 $</small></span><i>Sent</i></div>
+              <div class="preview-row"><span><b>FA-023</b><small>Atelier Nord · 2 080 $</small></span><i class="paid">Paid</i></div>
+              <div class="preview-row"><span><b>FA-022</b><small>Maison Claire · 920 $</small></span><i class="draft">Draft</i></div>
+            </div>
+            <div class="preview-add">＋ &nbsp;New invoice</div>
+          </div>
+          <div class="preview-tabs" aria-hidden="true"><span class="active">▤<small>Invoices</small></span><span>♙<small>Clients</small></span><span>◇<small>Tools</small></span><span>⚙<small>Settings</small></span></div>
+        </div>
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      </div>
+    </section>
+    <section class="section container" id="features">
+      <div class="section-head"><span class="eyebrow">Everything in its place</span><h2>From a first draft to a ready-to-share invoice.</h2><p>The essentials are easy to find, with useful tools there when you need them.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon" aria-hidden="true">▤</div><h3>Make an invoice</h3><p>Add a client, line items, payment details, and review a clean document before sharing.</p></article>
+        <article class="feature-card"><div class="feature-icon" aria-hidden="true">♙</div><h3>Keep clients close</h3><p>Save client details once and find them quickly when the next job is done.</p></article>
+        <article class="feature-card"><div class="feature-icon" aria-hidden="true">%</div><h3>Work with Québec taxes</h3><p>Include TPS/TVQ on invoices and use the built-in calculator to add or extract taxes.</p></article>
+      </div>
+    </section>
+    <section class="section workflow-section" id="how"><div class="container"><div class="section-head"><span class="eyebrow">A simple workflow</span><h2>Get from work done to invoice sent.</h2></div><div class="steps"><article><span>01</span><h3>Set up your business</h3><p>Add the details you want to appear on your invoices.</p></article><article><span>02</span><h3>Build the invoice</h3><p>Choose a client, add the work, and check the totals.</p></article><article><span>03</span><h3>Review and share</h3><p>Preview the document and share it when it is ready.</p></article></div></div></section>
+    <section class="section container" id="availability"><div class="closing"><span class="eyebrow">Facture is on its way</span><h2>A simpler way to invoice is coming.</h2><p>We’re preparing Facture for iOS and Android. Store links will appear here when the app is available.</p><div class="coming-soon"><span class="platform">● &nbsp;App Store</span><span class="platform">▶ &nbsp;Google Play</span><span>iOS & Android coming soon</span></div></div></section>
+  </main>
+  <footer class="container"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">F</span><span>Facture</span></a><span>© 2026 Facture · Made for freelancers and small businesses in Québec.</span><a href="fr.html" lang="fr">Français</a></footer>
 </body>
 </html>
