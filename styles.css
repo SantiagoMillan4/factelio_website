@@ -62,7 +62,7 @@ h1 { font-size: clamp(50px, 5.6vw, 76px); line-height: 1.04; letter-spacing: -.0
 .orbit-one { width: 110%; aspect-ratio: 1; }
 .orbit-two { width: 83%; aspect-ratio: 1; }
 .app-preview {
-  position: relative; z-index: 1; width: min(100%, 410px); height: 530px;
+  position: relative; z-index: 1; width: min(100%, 410px); height: 620px;
   border: 1px solid #dce7e5; border-radius: 26px; overflow: hidden; background: #f5f7fa;
   box-shadow: 0 26px 65px rgba(15, 55, 52, .14), 0 4px 14px rgba(15, 55, 52, .06);
 }
@@ -140,7 +140,7 @@ footer .brand-mark { width: 28px; height: 28px; border-radius: 9px; font-size: 1
   .hero { padding-block: 56px; }
   h1 { font-size: clamp(43px, 10vw, 58px); }
   .hero-visual { padding: 18px; }
-  .app-preview { height: 510px; }
+  .app-preview { height: 600px; }
   .section { padding-block: 66px; }
   .steps { grid-template-columns: 1fr; gap: 12px; }
   .steps article { padding: 20px 0; }
