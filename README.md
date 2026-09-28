@@ -1,4 +1,4 @@
-# Facture website
+# Factelio website
 
 Lightweight static landing page. No framework, build step, subscription, or JavaScript dependency.
 
