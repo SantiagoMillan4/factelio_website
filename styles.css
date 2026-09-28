@@ -153,3 +153,9 @@ footer .brand-mark { width: 28px; height: 28px; border-radius: 9px; font-size: 1
   html { scroll-behavior: auto; }
   .button { transition: none; }
 }
+
+.policy { max-width: 800px; padding-block: 84px 100px; }
+.policy h1 { font-size: clamp(42px, 6vw, 68px); margin-bottom: 8px; }
+.policy h2 { font-size: 24px; letter-spacing: -.03em; margin: 36px 0 10px; }
+.policy p { color: var(--muted); font-size: 17px; line-height: 1.7; }
+.policy-date { font-size: 13px !important; margin-bottom: 30px; }
